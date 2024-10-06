@@ -10,7 +10,7 @@ let stompClient;
 let socket;
 
 // const server_url = 'http://172.30.1.111:9700'
-const server_url = 'http://59.20.93.135:9700'
+const server_url = 'https://172.30.1.26:8443'
 // const server_url = 'http://localhost:9700'
 // const server_url = ''
 

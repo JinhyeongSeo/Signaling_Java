@@ -55,9 +55,9 @@ public class WebSocketEventListener {
             globalVariables.getCheckCamKey().put(sessionId, camKey);
         }
 
-        log.info("\n웹소켓 접속 : "+sessionId + "\n"
-                + "룸 ID : "+ roomId + "\n"
-                + "룸 인원 : "+globalVariables.getCheckRoomIdCount().get(roomId));
+        log.info("\n웹소켓 접속 : " + sessionId + "\n"
+                + "룸 ID : " + roomId + "\n"
+                + "룸 인원 : " + globalVariables.getCheckRoomIdCount().get(roomId));
     }
 
     @EventListener
@@ -99,9 +99,9 @@ public class WebSocketEventListener {
 
 
 
-        log.info("\n웹소켓 끊김 : "+sessionId+"\n"
-                +"룸 ID : "+roomId + "\n"
-                +"룸 인원 : "+ globalVariables.getCheckRoomIdCount().get(roomId) );
+        log.info("\n웹소켓 끊김 : " + sessionId+"\n"
+                +"룸 ID : " + roomId + "\n"
+                +"룸 인원 : " + globalVariables.getCheckRoomIdCount().get(roomId) );
     }
 
 
